@@ -36,7 +36,7 @@ nav .s{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-div > button {
+.f1 > button {
     margin-right: 200px;
     border-radius: 1000px;
     padding: 12px 16px;
@@ -77,7 +77,7 @@ nav > span{
   width: 380px;
   height: auto;
   margin: 100px 625px 300px 625px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 
 }
 .banner-section .rounded-mic-parent span{
@@ -101,43 +101,52 @@ nav > span{
   transform: translate(-50%,-50%);
   
 }
-
-.tech h1{
-  color: #FFFFFF;
-  font-size: 60px;
-  text-align: center;
-  font-weight: 800;
-  margin-bottom: 8px;
+.tech> h1{
+ color: #FFFFFF;
+ font-size: 60px;
+ text-align: center;
+ font-weight: 800;
+ margin-bottom: 8px;
+ margin-right: 10px;
 }
-.tech p{
-  color: #FFFFFF;
-  opacity: 80%;
-  font-size: 16px;
-  font-weight: 400;
-  text-align: center;
-  margin-bottom: 24px;
+.tech >p{
+ color: #FFFFFF;
+ opacity: 60%;
+ font-size: 16px;
+ font-weight: 400;
+ text-align: center;
+ margin-bottom: 24px;
+ margin-right: 20px;
 }
-.tech .b1{
+.tech >div{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+div >.btn1{
   padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  background:linear-gradient(rgba(247, 233, 63,1),rgba(251, 9, 180, 1),rgba(145,0,248,1));
   border-radius: 1000px;
   border: none;
-  background:linear-gradient(rgba(145,0,248,1),rgba(251, 9, 180, 1),rgba(247, 233, 63,1));
   color: #FFFFFF;
-  font-size: 16px;
-  margin-right: 8px;
-  font-weight: 600;
-
 }
-
-.tech .b2{
+div >.btn2{
   padding: 12px 20px;
-  border-radius: 1000px;
-  border: 1px solid #00FF88;
-  color: #00FF88;
-  background-color:#1A0B2E ;
   font-size: 16px;
   font-weight: 600;
+  border-radius: 1000px;
+  border: 1px solid ;
+  color: #00FF88;
+  background: transparent;
+
 }
+div >.btn2>img{
+  margin-top: 2px;
+}
+
+
 
 
 
@@ -156,7 +165,7 @@ nav > span{
     nav .menu-container {
         display: none;
     }
-    div > button {
+    .f1 > button {
         display: none;
     }
     nav{
@@ -213,7 +222,7 @@ nav > span{
       top: 40%;
       transform: translate(-50%,-50%);
    }
-    .tech h1{
+    .tech> h1{
      color: #FFFFFF;
      font-size: 60px;
      text-align: center;
@@ -221,7 +230,7 @@ nav > span{
      margin-bottom: 8px;
      margin-right: 10px;
    }
-   .tech p{
+   .tech >p{
      color: #FFFFFF;
      opacity: 80%;
      font-size: 16px;
@@ -230,27 +239,7 @@ nav > span{
      margin-bottom: 24px;
      margin-right: 20px;
    }
-   .tech .b2{
-     padding: 12px 20px;
-     border-radius: 1000px;
-     border: none;
-     background:linear-gradient(rgba(145,0,248,1),rgba(251, 9, 180, 1),rgba(247, 233, 63,1));
-     color: #FFFFFF;
-     font-size: 16px;
-     font-weight: 600;
-     margin:10px 300px;
-
-   }
-
-  .tech .b2{
-    padding: 12px 20px;
-    border-radius: 1000px;
-    border: 1px solid #00FF88;
-    color: #00FF88;
-    background-color:#1A0B2E ;
-    font-size: 16px;
-    font-weight: 600;
-   }
+   
     
 }
 
