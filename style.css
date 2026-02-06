@@ -162,16 +162,17 @@ div >.btn2>img{
 
 /* mobile device for responsiveness */
 @media screen and (max-width:576px) {
+    
+    nav{
+      max-width: 100%;
+    }
     nav .menu-container {
         display: none;
     }
     .f1 > button {
         display: none;
     }
-    nav{
-      width: 440px;
-      height: auto;
-    }
+   
     nav > span {
         width: 24px;
         height: 24px;
@@ -183,8 +184,8 @@ div >.btn2>img{
       margin-left: -20px;
     }
     .banner-section {
-      width: 440px;
-      height: 566px;
+      width: 100%;
+      height: 560px;
     
       background-image: url("./assets/hero-bg.png");
      
@@ -218,8 +219,8 @@ div >.btn2>img{
       width: 70px;
       height: auto;
       position: absolute;
-      left: 50%;
-      top: 40%;
+      left: 53%;
+      top: 35%;
       transform: translate(-50%,-50%);
    }
     .tech> h1{
