@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Inter",sans-serif;
+}
+nav{
+   max-width: 1600px;
+   height: 92px;
+   display: flex;
+   padding: 30px;
+   background-color: #1A0B2E;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+}
+nav .menu-container{
+    width: 218px;
+    display: flex;
+    gap: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    
+    color: #FFFFFF;
+}
+nav > p{
+    margin-left: 200px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #FFFFFF;
+    
+}
+nav .s{
+    background: linear-gradient(rgba(247,233,63,1),rgba(251,9,180,1),rgba(145,0,248,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+div > button {
+    margin-right: 200px;
+    border-radius: 1000px;
+    padding: 12px 16px;
+    background:linear-gradient(rgba(247, 233, 63,1),rgba(251, 9, 180, 1),rgba(145,0,248,1));
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+nav > span{
+    color: #FFFFFF;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.banner-section {
+    max-width: 1600px;
+    height: 760px;
+    margin: 0 auto;
+    background-image: url("./assets/hero-bg.png");
+    background-position: center;
+}
+.banner-section .rounded-mic-parent{
+  
+  position: relative;
+}
+.banner-section .rounded-mic-parent .rounded-shape{
+  width: 380px;
+  height: auto;
+  margin: 100px 625px 300px 625px;
+  margin-bottom: 40px;
+
+}
+.banner-section .rounded-mic-parent span{
+  background-color: #00FF88;
+  color: black;
+  font-weight: 600;
+  padding: 6px 15px;
+  border-radius: 20px;
+  display: inline-block;
+  position: absolute;
+  font-size: 18px;
+  left: 57%;
+  top: 20%;
+}
+.banner-section .rounded-mic-parent .mic{
+  width: 130px;
+  height: auto;
+  position: absolute;
+  left: 51%;
+  top: 42%;
+  transform: translate(-50%,-50%);
+  
+}
+
+.tech h1{
+  color: #FFFFFF;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.tech p{
+  color: #FFFFFF;
+  opacity: 80%;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.tech .b-1{
+  padding: 12px 20px;
+  border-radius: 1000px;
+  border: none;
+  background:linear-gradient(rgba(145,0,248,1),rgba(251, 9, 180, 1),rgba(247, 233, 63,1));
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-right: 8px;
+  font-weight: 600;
+  margin-left: 620px;
+
+}
+
+.tech .b-2{
+  padding: 12px 20px;
+  border-radius: 1000px;
+  border: 1px solid #00FF88;
+  color: #00FF88;
+  background-color:#1A0B2E ;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile device for responsiveness */
+@media screen and (max-width:576px) {
+    nav .menu-container {
+        display: none;
+    }
+    div > button {
+        display: none;
+    }
+    nav > span {
+        width: 24px;
+        height: 24px;
+        align-content: center;
+        display: block;
+    }
+    nav > p {
+        margin-left: 10px;
+    }
+    .banner-section {
+    width: 580px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url("./assets/hero-bg.png");
+    background-position: center;
+    }
+    .banner-section .rounded-mic-parent{
+  
+      position: relative;
+    }
+    .banner-section .rounded-mic-parent .rounded-shape{
+       width: 250px;
+       height: 250px;
+       margin: 70px 100px 225px 110px;
+       margin-bottom: 40px;
+
+   }
+   .banner-section .rounded-mic-parent span{
+      background-color: #00FF88;
+      color: black;
+      font-weight: 600;
+      padding: 6px 15px;
+      border-radius: 20px;
+      display: inline-block;
+      position: absolute;
+      font-size: 18px;
+      line-height: 22px;
+      font-family: "Inter",sans-serif;
+      left: 55%;
+      top: 20%;
+    }
+    .banner-section .rounded-mic-parent .mic{
+      width: 70px;
+      height: auto;
+      position: absolute;
+      left: 40%;
+      top: 40%;
+      transform: translate(-50%,-50%);
+   }
+   .tech h1{
+    color: #FFFFFF;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 8px;
+    margin-right: 110px;
+   }
+   .tech p{
+     color: #FFFFFF;
+     opacity: 80%;
+     font-size: 16px;
+     font-weight: 400;
+     text-align: center;
+     margin-bottom: 24px;
+     margin-right: 140px;
+   }
+   .tech .b-1{
+     padding: 12px 18px;
+     border-radius: 1000px;
+     border: none;
+     background:linear-gradient(rgba(145,0,248,1),rgba(251, 9, 180, 1),rgba(247, 233, 63,1));
+     color: #FFFFFF;
+     font-size: 16px;
+     font-weight: 600;
+
+   }
+
+  .tech .b-2{
+    padding: 12px 18px;
+    border-radius: 1000px;
+    border: 1px solid #00FF88;
+    color: #00FF88;
+    background-color:#1A0B2E ;
+    font-size: 16px;
+    font-weight: 600;
+   }
+    
+}
+
+
+
