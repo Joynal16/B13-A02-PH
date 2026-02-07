@@ -45,6 +45,10 @@ nav .s{
     font-size: 16px;
     font-weight: 600;
 }
+.f1 > button:hover{
+  box-shadow: 2px 2px 2px 2px goldenrod;
+  background-color: #2e0860;
+}
 
   
 nav > span{
@@ -133,6 +137,11 @@ div >.btn1{
   border: none;
   color: #FFFFFF;
 }
+div > .btn1:hover{
+  box-shadow: 2px 2px 2px 2px whitesmoke;
+  background-color: #2e0860;
+}
+
 div >.btn2{
   padding: 12px 20px;
   font-size: 16px;
@@ -143,6 +152,11 @@ div >.btn2{
   background: transparent;
 
 }
+div> .btn2:hover{
+  box-shadow: 2px 2px 2px 2px #00FF88;
+  background-color: #2e0860;
+}
+
 div >.btn2>img{
   margin-top: 2px;
 }
