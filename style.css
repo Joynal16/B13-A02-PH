@@ -495,7 +495,7 @@ ul > li >img{
 .foot  .s{
     background: linear-gradient(rgba(247,233,63,1),rgba(251,9,180,1),rgba(145,0,248,1));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; 
 }
 .last-ul >p{
   text-align: center;
@@ -958,38 +958,15 @@ ul > li >img{
 }
 /*small device end*/
 
-@media  screen and (max-width:992px) {
-  nav{
-   max-width: 1600px;
-   height: 92px;
-   flex-direction: column;
-   padding: 30px;
-   background-color: #1A0B2E;
-   justify-content: space-between;
-   align-items: center;
-   margin: 0 auto;
-   }
-   nav .menu-container{
-    width: 218px;
-    display: flex;
-    gap: 32px;
-    font-size: 16px;
-    font-weight: 500;
-    
-    color: #FFFFFF;
-   }
-   nav > p{
-    margin-left: 200px;
-    font-size: 35px;
-    font-weight: 700;
-    color: #FFFFFF;
-   
-   }
-   nav>span{
-    display: none;
-  }
 
-}
+
+
+
+
+
+
+
+
 
 
 
