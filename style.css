@@ -460,8 +460,48 @@ ul > li >img{
   border: 1px solid #4d2f74;
   border-radius:50% ;
 }
-
-
+.foots-main{
+  max-width: 1600px;
+  height: 412px;
+  margin: 0 auto;
+  background: url("./assets/footer-bg.png");
+}
+.foot{
+  max-width: 1360px;
+  height: 172px;
+  margin: 0 auto;
+  padding: 120px;
+}
+.foot > p{
+  font-size: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 800;
+}
+.foot  .s{
+    background: linear-gradient(rgba(247,233,63,1),rgba(251,9,180,1),rgba(145,0,248,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.last-ul >p{
+  text-align: center;
+}
+ .ls{
+  display: flex;
+  justify-content:center;
+  margin-top: 32px;
+  color: #FFFFFF;
+  gap: 40px;
+  opacity: 80%;
+}
+.footer-bottom >p{
+  text-align: center;
+  margin-top: 32px;
+  font-size: 16px;
+  color:#FFFFFF;
+  opacity: 70%;
+  font-weight: 400;
+}
 
 
 
